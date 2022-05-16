@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
+<link rel="stylesheet" href="./assets/css/grid.css">
+<link rel="stylesheet" href="./assets/css/main.css">
+<link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+       <div class="header">
+           <div class="grid wide">
+               <div class="nav">
+                   <h1 class="nav_logo order-2"><span style="color: orange;">Read</span>Estate</h1>
+                   <ul class="nav_list pc-display tablet-display order-1">
+                    <li class="nav_list_item-icon">
+                     <i class="fa-solid fa-bars  nav_list-item-icon icon-bar"></i>
+                    </li>
+                </ul>
+                   <ul class="nav_list mobile-display">
+                       <li class="nav_list_item">
+                           <a href="#" class="nav_list_item_link">Home</a>
+                       </li>
+                       <li class="nav_list_item">
+                        <a href="#service" class="nav_list_item_link">Services</a>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="#featured" class="nav_list_item_link">Featured</a>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="#profess" class="nav_list_item_link">Agents</a>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="#contact" class="nav_list_item_link">Contact</a>
+                    </li>
+                   </ul>
+                  
+                   <ul class="nav_list order-3">
+                       <li class="nav_list_item-icon">
+                        <i class="fa-solid fa-heart nav_list-item-icon"></i>
+                       </li>
+                       <li class="nav_list_item-icon">
+                        <i class="fa-solid fa-user nav_list-item-icon"></i>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+       <div class="slide">
+           <div class="slide-background">
+            <img src="./assets/img/tp_1.jpg" alt="" class="slide-background-img">
+           </div>
+           <div class="slide-body">
+               <div class="slide-body-in">
+                   <div class="slide-body-header">Find Your Perfect Home</div>
+                   <div class="slide-body-type">
+                       <button class="slide-body-type-rent slide-body-type-hover">For Rent</button>
+                       <button class="slide-body-type-sell slide-body-type-hover">For Sell</button>
+                   </div>
+                   <div class="slide-body-find-select">
+                    <input type="text" class="slide-body-find-input" placeholder="neighborhood">
+                    <input type="text" class="slide-body-find-input" placeholder="city">
+                   </div>
+                   <div class="slide-body-find-select">
+                       <select name="" id="">
+                           <option value="" disabled hidden selected>miximum price</option>
+                           <option value="">$100</option>
+                           <option value="">$200</option>
+                           <option value="">$300</option>
+                       </select>
+                       <select name="" id="">
+                        <option value="" disabled hidden selected>maximum price</option>
+                        <option value="">$1000</option>
+                        <option value="">$2000</option>
+                        <option value="">$3000</option>
+                    </select>
+                   </div>
+                   <div class="slide-body-find-select">
+                    <select name="" id="">
+                        <option value="" disabled hidden selected>propety status</option>
+                        <option value="">Ready To Move</option>
+                        <option value="">Under Construction</option>
+                        <option value="">Fumished</option>
+                    </select>
+                    <select name="" id="">
+                     <option value="" disabled hidden selected>property type</option>
+                     <option value="">House</option>
+                     <option value="">Shop</option>
+                     <option value="">Land</option>
+                 </select>
+                </div>
+                <div class="slide-body-find-select">
+                    <select name="" id="">
+                        <option value="" disabled hidden selected>BHK</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                    <select name="" id="">
+                     <option value="" disabled hidden selected>amenities</option>
+                     <option value="">Security</option>
+                     <option value="">Play Ground</option>
+                     <option value="">All</option>
+                 </select>
+                </div>
+                <div class="slide-body-find-select">
+                    <select name="" id="">
+                        <option value="" disabled hidden selected>bedrooms</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                    <select name="" id="">
+                     <option value="" disabled hidden selected>bathrooms</option>
+                     <option value="">1</option>
+                     <option value="">2</option>
+                     <option value="">3</option>
+                 </select>
+                </div>
+                <button class="slide-body-find-search">Search Propety</button>
+               </div>
+           </div>
+       </div>
+       <div class="modal-nav">
+           <div class="modal-nav-overlay">
+
+           </div>
+           <div class="modal-nav-body">
+            <i class="fa-solid fa-xmark nav_list-item-icon icon-x"></i>
+               <ul class="modal-nav-body-list">
+                <h1 class="nav_logo nav_logo-modal"><span style="color: orange;">Read</span>Estate</h1>
+                <div class="modal-nav-body-search">
+                    <input type="text" class="modal-nav-body-input" placeholder="Tìm kiếm...">
+                    <i class="fa-solid fa-magnifying-glass nav_list-item-icon modal-nav-body-icon"></i>
+                </div>
+                
+                <li class="nav_list_item nav_list_item-modal">
+                    <a href="" class="nav_list_item_link">Home</a>
+                </li>
+                <li class="nav_list_item nav_list_item-modal">
+                 <a href="" class="nav_list_item_link">Services</a>
+             </li>
+             <li class="nav_list_item nav_list_item-modal">
+                 <a href="" class="nav_list_item_link">Featured</a>
+             </li>
+             <li class="nav_list_item nav_list_item-modal">
+                 <a href="" class="nav_list_item_link">Agents</a>
+             </li>
+             <li class="nav_list_item nav_list_item-modal">
+                 <a href="" class="nav_list_item_link">Contact</a>
+             </li>
+               </ul>
+           </div>
+       </div>
+       <div class="service" id="service">
+           <div class="service-in">
+            <h1 class="service-in-header">Our <span style="color: orange; margin-left: 6px; padding: 4px 5px; background-color: rgba(244, 230, 216, 0.5);">Services</span> </h1>
+               <div class="grid wide">
+                  
+                   <div class="service-flex">
+    <div class="row row_service">
+          <div class="col l-4 m-6 c-12">
+
+              <div class="service-type">
+                   <div class="service-type-in">
+                    <img src="./assets/img/s-1.png" alt="" class="service-type-img">
+                    <h1 class="service-type-header">Buying Home</h1>
+                    <p class="service-type-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem officiis?</p>
+                    <button class="service-type-button">Learn More</button>
+                   </div>
+              </div>
+          </div>
+          <div class="col l-4 m-6 c-12">
+
+              <div class="service-type">
+                <div class="service-type-in">
+                 <img src="./assets/img/s-2.png" alt="" class="service-type-img">
+                 <h1 class="service-type-header">Renting Home</h1>
+                 <p class="service-type-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem officiis?</p>
+                 <button class="service-type-button">Learn More</button>
+                </div>
+           </div>
+          </div>
+          <div class="col l-4 m-6 c-12">
+
+              <div class="service-type">
+               <div class="service-type-in">
+                <img src="./assets/img/s-3.png" alt="" class="service-type-img">
+                <h1 class="service-type-header">Selling Home</h1>
+                <p class="service-type-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem officiis?</p>
+                <button class="service-type-button">Learn More</button>
+               </div>
+          </div>
+          </div>
+    </div>
+        
+                   </div>
+                  
+               </div>
+           </div>
+       </div>
+       <div class="featured" id="featured">
+           <div class="featured-in">
+               <h1 class="featured-header"><span style="color: orange;padding: 4px 5px; background-color: rgba(244, 230, 216, 0.5);">Featured</span> Properties</h1>
+               <div class="grid wide">
+                   <div class="row">
+                       
+                   
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-3.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Rent</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">1</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$25,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-1.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Sell</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">2</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$18,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-2.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Rent</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">1</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$25,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-4.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Rent</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">1</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$25,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-5.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Rent</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">1</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$25,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-6.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Rent</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">1</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$25,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-7.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Rent</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">1</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$25,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-8.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Rent</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">1</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$25,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 mt-magin">
+                        <div class="home">
+                                   <div class="home-has-img">
+                                    <img src="./assets/img/img-9.jpg" alt="" class="home-img">
+                                    <div class="home-ab1">
+                                        <div class="home-ab-describe">3 Days Ago</div>
+                                        <div class="home-ab-describe">For Rent</div>
+                                    </div> 
+                                    
+                                    <div class="home-ab2">
+                                      <div class="home-ab-left">
+                                         <i class="fa-solid fa-film home-ab-icon"></i>
+                                         <div class="home-ab-number">1</div>
+                                      </div>
+                                      <div class="home-ab-right">
+                                         <i class="fa-solid fa-camera home-ab-icon"></i>
+                                         <div class="home-ab-number">4</div>
+                                      </div>
+                                 </div>
+                                   </div>
+                                
+                            
+                            
+                            
+                            <div class="home-content">
+                                <div class="home-content-in">
+                                    <div class="home-content-first">
+                                        <h3 class="home-content-first-price">$25,000/mo</h3>
+                                        <div class="home-content-first-icons">
+                                         <i class="fa-solid fa-heart home-content-first-icon"></i>
+                                         <i class="fa-solid fa-envelope home-content-first-icon"></i>
+                                         <i class="fa-solid fa-phone home-content-first-icon"></i>
+                                        </div>
+                                    </div>
+                                    <h1 class="home-content-header">Modern Apatments</h1>
+                                    <p class="home-content-text">Jogeshwari West, Mumbai, India - 400104</p>
+                                    <div class="home-content-includes">
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-expand home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3500 sqft</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bed home-content-include-icon"></i>
+                                         <p class="home-content-include-details">3 Beds</p>
+                                        </div>
+                                        <div class="home-content-include">
+                                         <i class="fa-solid fa-bath home-content-include-icon"></i>
+                                         <p class="home-content-include-details">2 Baths</p>
+                                        </div>
+                                    </div>
+                                    <div class="home-content-buttons">
+                                        <button class="home-content-button">Requeset Info</button>
+                                        <button class="home-content-button">View Details</button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+       <div class="profess" id="profess">
+           <div class="profess-in">
+               <div class="grid wide">
+                   <h1 class="profess-header">Professional <span style="color: orange; padding: 5px; background-color: rgba(228, 189, 145, 0.5); border-radius: 3px; ">Agents</span></h1>
+                   <div class="row">
+                       <div class="col l-3 m-6 c-6 pro-mg">
+                           <div class="pro">
+                               <div class="pro-in">
+
+                                   <i class="fa-solid fa-envelope pro-contact-icon-email pro-contact-icon"></i>
+                                   <i class="fa-solid fa-phone-flip pro-contact-icon-phone pro-contact-icon"></i>
+                                   <div class="pro-has-img">
+                                       <img src="./assets/img/pic-1.png" alt="" class="pro-img">
+                                       <h3 class="pro-name">John Deo</h3>
+                                       <p class="pro-details">Agent</p>
+                                   </div>
+                                   <div class="pro-info">
+                                       <i class="fa-brands fa-facebook pro-info-icon"></i>
+                                       <i class="fa-brands fa-twitter pro-info-icon"></i>
+                                       <i class="fa-brands fa-instagram pro-info-icon"></i>
+                                       <i class="fa-brands fa-linkedin pro-info-icon"></i>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col l-3 m-6 c-6 pro-mg">
+                        <div class="pro">
+                            <div class="pro-in">
+
+                                <i class="fa-solid fa-envelope pro-contact-icon-email pro-contact-icon"></i>
+                                <i class="fa-solid fa-phone-flip pro-contact-icon-phone pro-contact-icon"></i>
+                                <div class="pro-has-img">
+                                    <img src="./assets/img/pic-2.png" alt="" class="pro-img">
+                                    <h3 class="pro-name">John Deo</h3>
+                                    <p class="pro-details">Agent</p>
+                                </div>
+                                <div class="pro-info">
+                                    <i class="fa-brands fa-facebook pro-info-icon"></i>
+                                    <i class="fa-brands fa-twitter pro-info-icon"></i>
+                                    <i class="fa-brands fa-instagram pro-info-icon"></i>
+                                    <i class="fa-brands fa-linkedin pro-info-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6 pro-mg">
+                        <div class="pro">
+                            <div class="pro-in">
+
+                                <i class="fa-solid fa-envelope pro-contact-icon-email pro-contact-icon"></i>
+                                <i class="fa-solid fa-phone-flip pro-contact-icon-phone pro-contact-icon"></i>
+                                <div class="pro-has-img">
+                                    <img src="./assets/img/pic-3.png" alt="" class="pro-img">
+                                    <h3 class="pro-name">John Deo</h3>
+                                    <p class="pro-details">Agent</p>
+                                </div>
+                                <div class="pro-info">
+                                    <i class="fa-brands fa-facebook pro-info-icon"></i>
+                                    <i class="fa-brands fa-twitter pro-info-icon"></i>
+                                    <i class="fa-brands fa-instagram pro-info-icon"></i>
+                                    <i class="fa-brands fa-linkedin pro-info-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6 pro-mg">
+                        <div class="pro">
+                            <div class="pro-in">
+
+                                <i class="fa-solid fa-envelope pro-contact-icon-email pro-contact-icon"></i>
+                                <i class="fa-solid fa-phone-flip pro-contact-icon-phone pro-contact-icon"></i>
+                                <div class="pro-has-img">
+                                    <img src="./assets/img/pic-4.png" alt="" class="pro-img">
+                                    <h3 class="pro-name">John Deo</h3>
+                                    <p class="pro-details">Agent</p>
+                                </div>
+                                <div class="pro-info">
+                                    <i class="fa-brands fa-facebook pro-info-icon"></i>
+                                    <i class="fa-brands fa-twitter pro-info-icon"></i>
+                                    <i class="fa-brands fa-instagram pro-info-icon"></i>
+                                    <i class="fa-brands fa-linkedin pro-info-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+         <div class="contacts" id="contact">
+             <h1 class="contact-header" ><span style="color: orange; padding: 8px; background-color: rgba(245, 216, 161, 0.5); border-radius: 3px;">Contact</span> Us</h1>
+             <div class="grid wide">
+                 <div class="row row-mg">
+                     <div class="col l-4 m-4 c-12 contact-mg">
+                         <div class="contact">
+                             <img src="./assets/img/icon-1.png" alt="" class="contact-img">
+                             <h1 class="contact-name">Phone Number</h1>
+                             <h5 class="contact-number">+123-456-7890</h5>
+                             <h5 class="contact-number">+111-222-3333</h5>
+                         </div>
+                     </div>
+                     <div class="col l-4 m-4 c-12 contact-mg">
+                        <div class="contact">
+                            <img src="./assets/img/icon-2.png" alt="" class="contact-img">
+                            <h1 class="contact-name">Phone Number</h1>
+                            <h5 class="contact-number"></h5>
+                            <h5 class="contact-number">Huytm.21it@vku.udn.vn</h5>
+                            <h5 class="contact-number">Hungdn.21it@vku.udn.vn</h5>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12 contact-mg">
+                        <div class="contact">
+                            <img src="./assets/img/icon-3.png" alt="" class="contact-img">
+                            <h1 class="contact-name">Phone Number</h1>
+                            <h5 class="contact-number">Jogeshwari, Mumbai, India - 40104</h5>
+                            
+                        </div>
+                    </div>
+                    
+                 </div>
+             </div>
+         </div>
+         <div class="infor-top" id="infor">
+
+             <div class="grid wide">
+    
+                 <div class="information">
+                     <div class="information-in">
+                         
+                             <div class="row">
+                                 <div class="col l-7 m-7 c-12">
+                                     <div class="infor-inputs">
+                                         <input type="text" class="infor-input" placeholder="Your Name">
+                                         <input type="number" class="infor-input" placeholder="Contact Number">
+                                         <input type="email" class="infor-input" placeholder="Email Address">
+                                         <input type="text" class="infor-input" placeholder="Subject">
+                                         <textarea name="" placeholder="Message" id="" cols="30" rows="10" class="infor-message"></textarea>
+                                         <button class="infor-button">Send Message</button>
+                                     </div>
+                                 </div>
+                                 <div class="col l-5 m-5 c-12 map-mg">
+                                       <div class="infor-map">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7346.251215823596!2d108.25128772150433!3d15.974470132943434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142108997dc971f%3A0x1295cb3d313469c9!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIFZp4buHdCAtIEjDoG4!5e0!3m2!1svi!2s!4v1651150752770!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                       </div>
+                                 </div>
+                             </div>
+                         
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="footer" id="footer">
+             <div class="grid wide">
+                 <div class="footer-boder">
+                     <div class="footer-in">
+                         <div class="row">
+                            
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer-content">
+                                    <h1 class="footer-content-header">Branch Location</h1>
+                                    <ul class="footer-content-list">
+
+                                        <li class="footer-content-item">
+                                            <a href="" class="footer-content-link">India</a>
+                                        </li>
+                                        <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">USA</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">France</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">Russia</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">Japan</a>
+                                       </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer-content">
+                                    <h1 class="footer-content-header">Quick Links</h1>
+                                    <ul class="footer-content-list">
+
+                                        <li class="footer-content-item">
+                                            <a href="" class="footer-content-link">Home</a>
+                                        </li>
+                                        <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">Service</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">Featured</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">Agents</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">Contact</a>
+                                       </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer-content">
+                                    <h1 class="footer-content-header">Extra Links</h1>
+                                    <ul class="footer-content-list">
+
+                                        <li class="footer-content-item">
+                                            <a href="" class="footer-content-link">My Account</a>
+                                        </li>
+                                        <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">My Favorite</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">My List</a>
+                                       </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer-content">
+                                    <h1 class="footer-content-header">Follow Us</h1>
+                                    <ul class="footer-content-list">
+
+                                        <li class="footer-content-item">
+                                            <a href="" class="footer-content-link">Facebook</a>
+                                        </li>
+                                        <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">Twitter</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                           <a href="" class="footer-content-link">Instagram</a>
+                                       </li>
+                                       <li class="footer-content-item">
+                                        <a href="" class="footer-content-link">Linkedin</a>
+                                    </li>
+                                    <li class="footer-content-item">
+                                        <a href="" class="footer-content-link">Youtube</a>
+                                    </li>
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="sparate"></div>
+                         <p class="footer-text">Created By  <span style="background-color: orange; padding: 4px 3px; margin-right: 4px; color: #fff;">Minh Huy - Như Hùng </span>Thanks For Coming </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+</body>
+<script>
+  var iconx = document.querySelector('.icon-x');
+  var bar = document.querySelector('.icon-bar');
+  var mobilenav = document.querySelector('.modal-nav');
+  var mobileoverlay = document.querySelector('.modal-nav-overlay');
+  var buttonRent = document.querySelector('.slide-body-type-rent');
+  var buttonSell = document.querySelector('.slide-body-type-sell');
+  var modalBody = document.querySelector('.modal-nav-body');
+  var slideImg = document.querySelector('.slide-background-img');
+  var img = ['tp_1.jpg','tp_2.jpg'];
+  
+  // var index = 1;
+ // changImage = function() {
+  //    slideImg.src = `./assets/img/${img[index]}`;
+  //    index++;
+  //    if(index == 2) {
+  //        index = 0;
+  //    }
+ // }
+ // setInterval(changImage, 3000); 
+
+  function openbar() {
+      mobilenav.classList.add('active');
+      modalBody.classList.add('active-tranfrom');
+  }
+  function closebar() {
+      mobilenav.classList.remove('active');
+      mobilenav.classList.remove('active-tranfrom');
+  }
+  function clickRent() {
+      buttonRent.classList.toggle('button-red');
+      buttonSell.classList.remove('button-red');
+      buttonRent.classList.toggle('active-white');
+      buttonSell.classList.remove('active-white');
+  }
+  function clickSell() {
+    buttonSell.classList.toggle('button-red');
+    buttonRent.classList.remove('button-red');
+    buttonSell.classList.toggle('active-white');
+      buttonRent.classList.remove('active-white');
+}
+  buttonRent.addEventListener('click', clickRent);
+  buttonSell.addEventListener('click', clickSell);
+  bar.addEventListener('click', openbar);
+  iconx.addEventListener('click', closebar);
+  mobileoverlay.addEventListener('click', closebar);
+
+</script>
+</html>
